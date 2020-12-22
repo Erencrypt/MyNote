@@ -1,10 +1,12 @@
-package com.eren.mynote;
+package com.eren.mynote.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+
+import com.eren.mynote.R;
 
 public class CreateNoteActivity extends AppCompatActivity {
 
