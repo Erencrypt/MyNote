@@ -23,6 +23,8 @@ android {
 }
 
 dependencies {
+    def room_version = "2.2.6"
+
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
@@ -30,4 +32,20 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
+    //room for database
+    implementation "androidx.room:room-runtime:$room_version"
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+
+    //recyclerView
+    implementation "androidx.recyclerview:recyclerview:1.1.0"
+
+    //scalable size unit (support for different screen sizes)
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+
+    //material design
+    implementation 'com.google.android.material:material:1.2.1'
+
+    //rounded ImageView
+    implementation 'com.makeramen:roundedimageview:2.3.0'
 }
