@@ -120,6 +120,7 @@
         android:padding="@dimen/_5sdp"
         android:src="@drawable/ic_add"
         app:tint="@color/colorPrimary"
+        android:hapticFeedbackEnabled="true"
         app:layout_constraintBottom_toTopOf="@id/layoutQuickActions"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/layoutQuickActions" />
