@@ -11,4 +11,8 @@
     <string name="pick_color">Pick\nColor</string>
     <string name="add_image">Add Image</string>
     <string name="prmission_denided">Permission Denided!</string>
+    <string name="add_url">Add URL</string>
+    <string name="enter_url">Enter URL</string>
+    <string name="add">ADD</string>
+    <string name="enter_valid_url">Enter Valid URL</string>
 </resources>
