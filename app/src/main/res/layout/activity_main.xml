@@ -89,7 +89,6 @@
             android:contentDescription="@string/app_name"
             android:src="@drawable/ic_add_outline"
             app:tint="@color/colorIcons" />
-
         <ImageView
             android:id="@+id/imageAddImage"
             android:layout_width="@dimen/_23sdp"
@@ -98,7 +97,6 @@
             android:contentDescription="@string/app_name"
             android:src="@drawable/ic_image"
             app:tint="@color/colorIcons" />
-
         <ImageView
             android:id="@+id/imageAddWebLink"
             android:layout_width="@dimen/_23sdp"
