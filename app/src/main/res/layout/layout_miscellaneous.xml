@@ -155,6 +155,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/_35sdp"
         android:layout_margin="@dimen/_10sdp"
+        android:hapticFeedbackEnabled="true"
         android:gravity="center_vertical"
         android:orientation="horizontal"
         tools:ignore="UseCompoundDrawables">
@@ -185,6 +186,7 @@
         android:layout_marginBottom="@dimen/_10sdp"
         android:layout_marginEnd="@dimen/_10sdp"
         android:layout_marginStart="@dimen/_10sdp"
+        android:hapticFeedbackEnabled="true"
         android:gravity="center_vertical"
         android:orientation="horizontal"
         tools:ignore="UseCompoundDrawables">

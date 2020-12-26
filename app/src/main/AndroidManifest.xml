@@ -15,7 +15,7 @@
         android:theme="@style/AppTheme"
         tools:targetApi="q"
         android:fullBackupContent="false">
-        <activity android:name=".activities.CreateNoteActivity" />
+        <activity android:name=".activities.CreateNoteActivity" android:windowSoftInputMode="stateAlwaysHidden"/>
         <activity android:name=".activities.MainActivity" android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
