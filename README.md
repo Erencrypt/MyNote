@@ -1,2 +1,2 @@
 # My Note
-Note app for android devices
+Basic and easy to use note app for android devices
