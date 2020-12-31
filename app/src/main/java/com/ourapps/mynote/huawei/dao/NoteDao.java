@@ -1,4 +1,4 @@
-package com.eren.mynote.dao;
+package com.ourapps.mynote.huawei.dao;
 
 import androidx.room.Dao;
 import androidx.room.Delete;
@@ -6,7 +6,7 @@ import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 
-import com.eren.mynote.entities.Note;
+import com.ourapps.mynote.huawei.entities.Note;
 
 import java.util.List;
 

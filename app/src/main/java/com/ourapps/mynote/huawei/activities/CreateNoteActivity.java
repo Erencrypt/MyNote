@@ -1,4 +1,4 @@
-package com.eren.mynote.activities;
+package com.ourapps.mynote.huawei.activities;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -31,9 +31,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.eren.mynote.R;
-import com.eren.mynote.database.NotesDatabase;
-import com.eren.mynote.entities.Note;
+import com.ourapps.mynote.huawei.R;
+import com.ourapps.mynote.huawei.database.NotesDatabase;
+import com.ourapps.mynote.huawei.entities.Note;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 
 import java.io.InputStream;

@@ -1,4 +1,4 @@
-package com.eren.mynote;
+package com.ourapps.mynote.huawei;
 
 import org.junit.Test;
 

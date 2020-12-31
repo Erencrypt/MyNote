@@ -1,4 +1,4 @@
-package com.eren.mynote.adapters;
+package com.ourapps.mynote.huawei.adapters;
 
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
@@ -14,9 +14,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.eren.mynote.R;
-import com.eren.mynote.entities.Note;
-import com.eren.mynote.listeners.NotesListener;
+import com.ourapps.mynote.huawei.R;
+import com.ourapps.mynote.huawei.entities.Note;
+import com.ourapps.mynote.huawei.listeners.NotesListener;
 import com.makeramen.roundedimageview.RoundedImageView;
 
 import java.util.ArrayList;

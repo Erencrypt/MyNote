@@ -1,4 +1,4 @@
-package com.eren.mynote.activities;
+package com.ourapps.mynote.huawei.activities;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,11 +16,11 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 
-import com.eren.mynote.R;
-import com.eren.mynote.adapters.NotesAdapter;
-import com.eren.mynote.database.NotesDatabase;
-import com.eren.mynote.entities.Note;
-import com.eren.mynote.listeners.NotesListener;
+import com.ourapps.mynote.huawei.R;
+import com.ourapps.mynote.huawei.adapters.NotesAdapter;
+import com.ourapps.mynote.huawei.database.NotesDatabase;
+import com.ourapps.mynote.huawei.entities.Note;
+import com.ourapps.mynote.huawei.listeners.NotesListener;
 
 import java.util.ArrayList;
 import java.util.List;

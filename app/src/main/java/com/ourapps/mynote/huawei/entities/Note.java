@@ -1,4 +1,4 @@
-package com.eren.mynote.entities;
+package com.ourapps.mynote.huawei.entities;
 
 import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;
