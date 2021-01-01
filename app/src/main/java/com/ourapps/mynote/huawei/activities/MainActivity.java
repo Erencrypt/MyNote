@@ -44,6 +44,17 @@ public class MainActivity extends AppCompatActivity implements NotesListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        HwAds.init( this);
+
+        ImageView imageBack = findViewById(R.id.imageBack);
+        imageBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                loadInterstitialAd();
+            }
+        });
+
+
 
         ImageView imageAddNoteMain = findViewById(R.id.imageAddNoteMain);
         imageAddNoteMain.setOnClickListener(new View.OnClickListener() {
@@ -87,6 +98,17 @@ public class MainActivity extends AppCompatActivity implements NotesListener {
             }
         });
     }
+
+
+    private void loadInterstitialAd(){
+        intersititialAd = new IntersititialAd(this);
+        intersititialAd.setAdId("");
+        intersititialAd.setAdListener(adListener);
+
+        AdParam adParam = new AdParam.Builder().build();
+        intersititialAd.loadAd(adParam);
+    }
+
 
     @Override
     public void onNoteClicked(Note note, int position) {
