@@ -21,8 +21,8 @@
 
             <ImageView
                 android:id="@+id/imageBack"
-                android:layout_width="@dimen/_32sdp"
-                android:layout_height="@dimen/_32sdp"
+                android:layout_width="@dimen/_26sdp"
+                android:layout_height="@dimen/_26sdp"
                 android:layout_marginStart="@dimen/_6sdp"
                 android:layout_marginTop="@dimen/_20sdp"
                 android:layout_marginEnd="@dimen/_12sdp"
@@ -36,8 +36,8 @@
 
             <ImageView
                 android:id="@+id/imageSave"
-                android:layout_width="@dimen/_32sdp"
-                android:layout_height="@dimen/_32sdp"
+                android:layout_width="@dimen/_26sdp"
+                android:layout_height="@dimen/_26sdp"
                 android:layout_marginEnd="@dimen/_12sdp"
                 android:background="@drawable/background_done_button"
                 android:contentDescription="@string/app_name"
