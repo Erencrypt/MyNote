@@ -28,8 +28,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import com.huawei.hms.ads.AdParam;
+import com.huawei.hms.ads.banner.BannerView;
 import com.ourapps.mynote.huawei.R;
 import com.ourapps.mynote.huawei.adapters.NotesAdapter;
 import com.ourapps.mynote.huawei.database.NotesDatabase;
@@ -71,6 +74,12 @@ public class MainActivity extends AppCompatActivity implements NotesListener {
             }
         });
 
+
+        BannerView bannerView = findViewById(R.id.hw_banner_view);
+        AdParam adParam = new AdParam.Builder().build();
+        bannerView.loadAd(adParam);
+
+
         notesRecyclerView = findViewById(R.id.notesRecyclerView);
         notesRecyclerView.setLayoutManager(
                 new StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL)
@@ -111,6 +120,8 @@ public class MainActivity extends AppCompatActivity implements NotesListener {
                 );
             }
         });
+
+
 
         findViewById(R.id.imageAddImage).setOnClickListener(new View.OnClickListener() {
             @Override
